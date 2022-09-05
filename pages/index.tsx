@@ -23,6 +23,7 @@ export default function Home() {
                   className="font-semibold"
                   href="https://ce.khu.ac.kr/ce/user/main/view.do"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   KyeongHee Univ.
                 </a>
