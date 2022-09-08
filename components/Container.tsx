@@ -36,8 +36,8 @@ export default function Container(props: { [x: string]: any; children: any }) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "SungJin Um – Developer, writer, creator.",
-    description: `Front-end developer, JavaScript enthusiast, and course creator.`,
+    title: "SungJin Um – Student Developer.",
+    description: `Full-Stack Developer, but Backend-Focused. React, Node.js, Golang, and more.`,
     type: "website",
     ...customMeta,
   };
@@ -48,7 +48,10 @@ export default function Container(props: { [x: string]: any; children: any }) {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://sungjin.dev${router.asPath}`} />
+        <meta
+          property="og:url"
+          content={`https://sungjin.dev${router.asPath}`}
+        />
         <link rel="canonical" href={`https://sungjin.dev${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="SungJin Um" />
@@ -71,9 +74,9 @@ export default function Container(props: { [x: string]: any; children: any }) {
             aria-label="Toggle Dark Mode"
             type="button"
             className="w-9 h-9 bg-gray-200 rounded-lg dark:bg-gray-600 flex items-center justify-center  hover:ring-2 ring-gray-300  transition-all"
-            onClick={() =>
-              setTheme(resolvedTheme === "dark" ? "light" : "dark")
-            }
+            onClick={() => {
+              setTheme(resolvedTheme === "dark" ? "light" : "dark");
+            }}
           >
             {mounted && (
               <svg
@@ -108,7 +111,7 @@ export default function Container(props: { [x: string]: any; children: any }) {
         className="flex flex-col justify-center px-8 bg-gray-50 dark:bg-gray-900"
       >
         {children}
-        <Footer/>
+        <Footer />
       </main>
     </div>
   );
