@@ -43,6 +43,7 @@ export default function Home() {
             title="Learn In Web"
             img="asdf.png"
             link="https://github.com/taintlesscupcake/learn-in-web"
+            description="A web-based learning platform for students and teachers."
           />
           <Link href="/projects">
             <a className="flex mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">
