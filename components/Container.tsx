@@ -36,7 +36,7 @@ export default function Container(props: { [x: string]: any; children: any }) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "SungJin Um – Developer, writer, creator.",
+    title: "SungJin Um – The Student Developer.",
     description: `Front-end developer, JavaScript enthusiast, and course creator.`,
     type: "website",
     ...customMeta,
