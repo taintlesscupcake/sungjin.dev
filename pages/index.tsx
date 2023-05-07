@@ -29,8 +29,16 @@ export default function Home() {
                 </a>
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-16">
-                I am a student developer from Korea. Full-Stack Developer, but
-                Backend-Focused. React, Node.js, Golang, and more.
+                I am a student developer from Korea. AI(Computer Vision) Researcher & Backend/DevOps Developer. Python, Node.js, Golang, and more.
+                Undergraduate Researcher in{" "}
+                <a
+                  className="font-semibold"
+                  href="https://visualai.khu.ac.kr/home"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visual AI Lab
+                </a>
               </p>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto"></div>
