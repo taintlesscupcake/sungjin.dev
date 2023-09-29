@@ -45,13 +45,13 @@ export default function Home() {
           </div>
 
           <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-6 text-black dark:text-white">
-            Featured Projects
+            Recent Researches
           </h3>
           <Project
-            title="Learn In Web"
-            img="asdf.png"
-            link="https://github.com/taintlesscupcake/learn-in-web"
-            description="A web-based learning platform for students and teachers."
+            title="SIRA_SSL"
+            img="SIRA_SSL.png"
+            link="https://github.com/VisualAIKHU/SIRA-SSL"
+            description="Sound Source Localization, Accepted to ACM MM 2023"
           />
           <Link href="/projects">
             <a className="flex mt-8 text-gray-600 dark:text-gray-400 leading-7 rounded-lg hover:text-gray-800 dark:hover:text-gray-200 transition-all h-6">
