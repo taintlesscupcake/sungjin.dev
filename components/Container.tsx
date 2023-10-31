@@ -64,7 +64,7 @@ export default function Container(props: { [x: string]: any; children: any }) {
             <NavItem href="/" text="Home" />
             <NavItem href="/about" text="About" />
             <NavItem href="/projects" text="Projects" />
-            <NavItem href="/blog" text="Blog" />
+            <NavItem href="https://blog.sungjin.dev" text="Blog" />
             <NavItem href="/contact" text="Contact" />
           </div>
           <button
