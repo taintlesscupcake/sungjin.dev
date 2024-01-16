@@ -27,8 +27,8 @@ export default function Footer() {
           </Link>
         </div>
         <div className="flex flex-col space-y-4">
-          <ExternalLink href="https://instagram.com/0x0515a">
-            Instagram
+          <ExternalLink href="www.linkedin.com/in/sungjin-um-1256962aa">
+            Linkedin
           </ExternalLink>
           <ExternalLink href="https://github.com/taintlesscupcake">
             GitHub
